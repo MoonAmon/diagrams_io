@@ -15,15 +15,16 @@ int main(int argc, char const *argv[])
 		printf("Aprovado!%2.f",md1);
 		return 0;
 	} else {
-		printf("Digite nota do exame:",md1);
+		printf("Digite nota do exame;");
 		scanf("%f", &ne);
 		float md2 = (md1+ne)/2;
 	 if (md2>=5)
 	{
-		printf("Aprovado em exame:%2.f",md2);
+		printf("Aprovado em exame:%2.f",md1);
 	} else {
-		printf("Reprovado!%2.f",md2);
+		printf("Reprovado!");
 	};
-};
+
 	return 0;
+}
 }
